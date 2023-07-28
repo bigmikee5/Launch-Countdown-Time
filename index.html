@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <script
+      src="https://kit.fontawesome.com/cc881b3a23.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Launch countdown timer</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img src="images/bg-stars.svg" class="stars" alt="" />
+    <h1>We're launching soon</h1>
+
+    <div class="counter-cont flex">
+      <!-- days  -->
+      <div class="cont2 flex">
+        <div class="time-cont Days">
+          <div class="the-card" id="card-days">
+            <div class="card-1"><span id="day-1"></span></div>
+            <div class="card-2"><span id="day-2"></span></div>
+          </div>
+        </div>
+        <p>days</p>
+      </div>
+
+      <div class="cont2 flex">
+        <div class="time-cont hours">
+          <!-- hours  -->
+          <div class="the-card" id="card-hour">
+            <div class="card-1"><span id="hour-1"></span></div>
+            <div class="card-2"><span id="hour-2"></span></div>
+          </div>
+        </div>
+        <p>hours</p>
+      </div>
+
+      <div class="cont2 flex">
+        <div class="time-cont minutes">
+          <!-- minutes  -->
+          <div class="the-card" id="card-min">
+            <div class="card-1"><span id="min-1"></span></div>
+            <div class="card-2"><span id="min-2"></span></div>
+          </div>
+        </div>
+        <p>minutes</p>
+      </div>
+
+      <div class="cont2 flex">
+        <div class="time-cont seconds">
+          <!-- seconds  -->
+          <div class="the-card" id="card-sec">
+            <div class="card-1"><span id="sec-1"></span></div>
+            <div class="card-2"><span id="sec-2"></span></div>
+          </div>
+        </div>
+        <p>seconds</p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="flex icons">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-pinterest"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+
+      <img src="images/pattern-hills.svg" alt="" />
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/bigmikee5" target="_blank">Edeh Michael</a>.
+      </div>
+    </footer>
+
+    <!-- <script src="animation-timer.js"></script> -->
+    <script src="script.js"></script>
+  </body>
+</html>
